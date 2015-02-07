@@ -1,0 +1,45 @@
+<openerp>
+    <data>
+     
+    <template id="odoolabs_snippets_option_glyphicon" name="Odoo labs snippets option glyphicon" inherit_id="website.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-snippet-option-id="odoolabs_snippets_option_glyphicon"
+                 data-selector=".glyphicon"
+                 data-selector-children='.oe_structure'>
+                <li class="dropdown-submenu">
+                     <a tabindex="-1" href="#">Modify icon</a>
+                     <ul class="dropdown-menu">
+                         <li data-value="glyphicon-hand-left"><a>Hand left</a></li>
+                         <li data-value="glyphicon-hand-right"><a>Hand right</a></li>
+                         <li data-value="glyphicon-eye-open"><a>Eye open</a></li>
+                         <li data-value="glyphicon-home"><a>Home</a></li>
+                         <li data-value="glyphicon-chevron-right"><a>Chevron right</a></li>
+                         <li data-value="glyphicon-chevron-left"><a>Chevron left</a></li>
+                         <li data-value="glyphicon-time"><a>Time</a></li>
+                         <li data-value="glyphicon-arrow-left"><a>Arrow-left</a></li>
+                         <li data-value="glyphicon-arrow-right"><a>Arrow-right</a></li>
+                         <li data-value="glyphicon-thumbs-up"><a>thumbs up</a></li>
+                     </ul>
+                </li>    
+            </div>     
+        </xpath>
+    </template>
+     
+         
+    <template id="odoolabs_snippets_option_timeline" name="Odoo labs snippets option timeline" inherit_id="website.snippet_options">
+        <xpath expr="." position="inside">
+            <div data-snippet-option-id="odoolabs_snippets_option_timeline"
+                 data-selector=".timeline-left, .timeline-inverted"
+                 data-selector-children='.oe_structure'>
+                <li class="dropdown-submenu">
+                     <a tabindex="-1" href="#">Orientation</a>
+                     <ul class="dropdown-menu">
+                         <li data-value="timeline-left"><a>Left</a></li>
+                         <li data-value="timeline-inverted"><a>Right</a></li>
+                     </ul>
+                </li>    
+            </div>     
+        </xpath>
+    </template> 
+    </data>
+</openerp>

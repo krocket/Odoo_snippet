@@ -1,0 +1,36 @@
+<openerp>
+    <data>
+
+        <template id="snippets" inherit_id="website.snippets" name="Clean Theme snippets">
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/dummy_theme/static/img/blocks/block_title.png"/>
+                        <span class="oe_snippet_thumbnail_title">Mon snipet</span>
+                    </div>
+
+                    <section class="oe_snippet_body jumbotron mt16 mb16">
+                        <div class="container">
+                            <div class="row">
+                                <div class="alert alert-primary" role="alert">
+                                    <a href="#" class="alert-link">...</a>
+                                </div>
+                                <div class="col-md-6 bg-blue">
+                                    <h2>BLUE it!</h2>
+                                </div>
+                                <div class="col-md-6 bg-green">
+                                    <h2>GREEN THAT!</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dummy-boy"></div>
+                        <div class="dummy-girl"></div>
+                    </section>
+
+                </div>
+            </xpath>
+        </template>
+
+    </data>
+
+</openerp>

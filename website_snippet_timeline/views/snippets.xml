@@ -1,0 +1,58 @@
+<openerp>
+    <data>
+    
+    <template id="assets_frontend" inherit_id='website.assets_frontend' name='Odoolabs snippet'>
+	<xpath expr='.' position='inside'>
+	    <link href="/website_snippet_timeline/static/style/snippet.css" rel="stylesheet" type="text/less"/>
+	</xpath>
+    </template>
+        
+    <template id="odoolabs_snippets" inherit_id="website.snippets" name="Snippets odoolabs">
+	<xpath expr="//li[last()]" position="inside">
+	    <li><a href="#snippet_odoolabs" data-toggle="tab">Odoo labs</a></li> 
+	</xpath>
+    </template>
+    
+    <template id="odoolabs_snippets_div" inherit_id="website.snippets" name="Snippets odoolabs div">	
+	<xpath expr="//div[@class='tab-content']" position="inside">
+	    <div id="snippet_odoolabs" class="tab-pane"></div>
+	</xpath>
+    </template>
+    		
+    <template id="snippets_timeline" inherit_id="website_snippet_timeline.odoolabs_snippets_div" name="Snippets timeline">
+	<xpath expr="//div[@id='snippet_odoolabs']" position="inside">
+	    <div>
+		<div class="oe_snippet_thumbnail">
+		    <img class="oe_snippet_thumbnail_img" src="/website_snippet_timeline/static/img/blocks/block_title.png"/>
+		    <span class="oe_snippet_thumbnail_title">TimeLine</span>
+		</div>
+	
+		<section class="oe_snippet_body  mt12 mb12">
+		    <div class="container">
+			<ul class="timeline">
+			    <li class='timeline-left'>
+				<div class="timeline-badge warning"><i class="glyphicon glyphicon-hand-left"></i></div>
+				<div class="timeline-panel">
+				    <div class="timeline-heading">
+				        <h2 class="timeline-title">Title</h2>
+				        <p><small class="text-muted">Add state to ....</small></p>
+				    </div>
+				    <div class="timeline-body">
+				       <p>
+				          Page 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
+				          Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero. Aenean sit amet felis 
+			    	          dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. 
+			                  Aliquam in felis sit amet augue.
+					</p>		  
+			 	    </div>
+			        </div>
+			    </li>
+			</ul>
+		    </div>
+		</section>
+	    </div>
+	</xpath>
+    </template>
+	       		
+    </data>
+    </openerp>

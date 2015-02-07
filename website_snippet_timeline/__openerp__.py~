@@ -1,0 +1,22 @@
+{
+    # Theme information
+    'name': "Dummy Theme",
+    'description': """
+    """,
+    'category': 'Theme',
+    'version': '1.0',
+    'depends': ['website'],
+
+    # templates, pages, and snippets
+    'data': [
+    #    'views/pages.xml',
+    #    'views/options.xml',
+    #    'views/snippets.xml',
+        'views/themes.xml',
+    ],
+
+    # Your information
+    'application':True,
+    'author': "Your Company",
+    'website': "",
+}
